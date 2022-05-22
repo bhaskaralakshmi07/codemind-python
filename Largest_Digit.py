@@ -1,0 +1,9 @@
+n=int(input())
+i=0
+while(n!=0):
+     rem=n%10
+     n=n/10
+     k=rem
+     if(k>i):
+         i=k
+print("%d"%i)
