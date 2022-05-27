@@ -9,5 +9,4 @@ def fib(n):
         b=c
     return False
 n=int(input())
-print(fib(n))   
-    
+print(fib(n))  
