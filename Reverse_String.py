@@ -1,3 +1,5 @@
-a=input()
-b=a[: :-1]
-print(b)
+n=input()
+words=n.split()
+words=reversed(words)
+r=' '.join(words)
+print(r)
