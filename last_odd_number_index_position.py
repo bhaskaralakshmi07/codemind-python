@@ -1,8 +1,8 @@
 def fun(n):
-    x = n
-    for i in range(len(x)-1,-1,-1):
-        if x[i] % 2 == 1:
+    a = n
+    for i in range(len(a)-1,-1,-1):
+        if a[i] % 2 == 1:
             return i
-y = int(input())
+b = int(input())
 n = list(map(int,input().split()))
 print(fun(n))
