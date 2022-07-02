@@ -1,4 +1,4 @@
 n=input()
-words=n.split()
-for i in range(len(words)):
-    print(len(words[i]),end=' ')
+a=n.split()
+for i in range(len(a)):
+    print(len(a[i]),end=" ")
