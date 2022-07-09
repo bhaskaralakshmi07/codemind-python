@@ -5,3 +5,4 @@ for i in ar:
     if i%k==0:
         c=c+1
 print(c)
+    
