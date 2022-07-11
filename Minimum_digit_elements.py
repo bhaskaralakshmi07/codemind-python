@@ -8,5 +8,5 @@ for i in x:
     c=0
     for k in y:
         if k==m:
-            c=c+1
+            c+=1
 print(c)
