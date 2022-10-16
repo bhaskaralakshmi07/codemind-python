@@ -1,6 +1,6 @@
 n,m=map(int,input().split())
-v=[]
+b=[]
 for i in range(n):
     a=list(map(int,input().split()))
-    v.append(a)
+    b.append(a)
     print(sum(a),end=' ')
